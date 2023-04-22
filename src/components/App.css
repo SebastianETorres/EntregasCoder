@@ -1,7 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .Barra{
     text-align: center;
-    background-color: aquamarine;
+    list-style: none;
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 2rem;
 }
+h2{
+    margin-bottom: 20px;
+}
+.NavLinks {
+    display: flex;
+    justify-content:center;
+    list-style: none;
+  } 
+.NavLinks li {
+    margin: 0 10px;
+}
+.NavLinks a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+.NavLinks a:hover {
+    color: #e91e63;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+.cart-img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.cart-counter {
+    background-color: #e91e63;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1px 5px;
+    border-radius: 10px;
+}
+
 .gr{
     text-align: center;
+    
+}
+
+
+.Contador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+} 
+.Controles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+} 
+.Boton {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #e91e63;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+} 
+.Boton:hover {
+    background-color: #c2185b;
+} 
+.Numero {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0 1rem;
 }

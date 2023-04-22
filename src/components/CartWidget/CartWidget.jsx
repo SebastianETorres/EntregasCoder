@@ -1,9 +1,9 @@
 import cart from './img/Carrito.png'
 const CartWidget = () => {
     return (
-        <div>
-            <img src={cart} alt="cart-widget" />
-            0
+        <div className='cart'>
+            <img src={cart} alt="cart-widget" className='cart-img'/>
+            <span className="cart-counter">0</span>
         </div>
     );
 }
