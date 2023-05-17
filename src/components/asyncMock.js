@@ -1,14 +1,10 @@
-import ht from './imgs/html5.png'
-import cs from './imgs/css.png'
-import SP from './imgs/cybersecure.png'
-
 const products = [
     {
         id: '1',
         nombre: 'HTML',
         precio: 1300,
         categoria: 'programacion',
-        img: ht,
+        img: "https://firebasestorage.googleapis.com/v0/b/entregafinalnjs.appspot.com/o/html5.png?alt=media&token=5391136c-8fd4-4e07-a4a5-58a917d7a7c3",
         stock: '10',
         descripcion:'Aprenderas HTML, un lenguaje de estructuracion por etiquetas.'
     },
@@ -17,7 +13,7 @@ const products = [
         nombre: 'CSS',
         precio: 1200,
         categoria: 'programacion',
-        img: cs,
+        img: "https://firebasestorage.googleapis.com/v0/b/entregafinalnjs.appspot.com/o/css.png?alt=media&token=c0ddcf9e-9e87-4531-a5a5-00669fac9226",
         stock: '10',
         descripcion:'Aprenderas CSS, un lenguaje de renderizado de elementos estructurados .'
     },
@@ -26,7 +22,7 @@ const products = [
         nombre: 'Sparta' ,
         precio: 3000,
         categoria: 'ciberseguridad',
-        img: SP,
+        img: "https://firebasestorage.googleapis.com/v0/b/entregafinalnjs.appspot.com/o/cybersecure.png?alt=media&token=37ec1deb-212c-4fc7-bec1-09a64be0cf2c",
         stock: '5',
         descripcion:' Aprenderas Sparta, un lenguaje orientado a Ciberseguridad.'
     }
